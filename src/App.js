@@ -8,7 +8,7 @@ function App() {
   return (
     <div className={` ${day ? 'day1' : 'night' }`}>
       <header className="App-header">
-      <h1 class="text-blue-450">{day} Time</h1>
+      <h1> Time</h1>
         <Counter/>
         <button className="change-btn" onClick={()=>{setDay(!day) }}> Change </button>
         {console.log(day)}
